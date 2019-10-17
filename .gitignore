@@ -23,6 +23,9 @@
 # Visual Studio cache directory
 .vs/
 
+# Ignore Quantum Theory
+/Assets/Quantum*
+
 # Gradle cache directory
 .gradle/
 
