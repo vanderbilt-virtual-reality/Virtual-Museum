@@ -1,5 +1,5 @@
 # Virtual Museum
-This repository serves as the primary remote repository for all development-related files with the Virtual Museum project.
+This repository serves as the main remote repository for all development-related files with the Virtual Museum project.  
 
 ## Links
 Slack: https://app.slack.com/client/TMKJKKT2N/GNJANL0E9
