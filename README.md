@@ -11,4 +11,4 @@ Google Drive: https://drive.google.com/drive/folders/1pg-oNTiGK4_tNs_4zxNKqxCOEl
 Previously Purchased Assets: https://vanderbilt.app.box.com/s/tyheh78q32z6se9cpht9cdimtcyb9l12
 
 ### Unity Version
-ALL MADE WITH UNITY VERSION: XYZ
+Made with Unity Version: XYZ
