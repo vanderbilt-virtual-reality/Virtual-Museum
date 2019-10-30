@@ -9,3 +9,6 @@ Trello: https://trello.com/b/MLDNZhRO/vr-museum
 Google Drive: https://drive.google.com/drive/folders/1pg-oNTiGK4_tNs_4zxNKqxCOElebRkB0
 
 Previously Purchased Assets: https://vanderbilt.app.box.com/s/tyheh78q32z6se9cpht9cdimtcyb9l12
+
+## Unity Version
+Made with Unity Version: 2019.2.6f1
