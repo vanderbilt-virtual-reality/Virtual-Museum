@@ -12,3 +12,6 @@ Previously Purchased Assets: https://vanderbilt.app.box.com/s/tyheh78q32z6se9cph
 
 ## Unity Version
 Made with Unity Version: 2019.2.6f1
+
+## Misc.
+One of the listed authors is someone named Yutao, should be authored by Brandon.  Github Desktop said that Yutao was signed out but still assigned the commits to Yutao
