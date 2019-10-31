@@ -1046,6 +1046,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bea49d7d49d3b3b4482a570bb4c98486, type: 3}
+--- !u!1 &499475353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499475355}
+  - component: {fileID: 499475354}
+  m_Layer: 0
+  m_Name: Brush
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &499475354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499475353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a667f2d5877ad4889b6bcd17807f2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _brushStrokePrefab: {fileID: 1196413553089462, guid: 749d541d662db9f4fa312e0e4fb6cef1,
+    type: 3}
+  _hand: 1
+--- !u!4 &499475355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499475353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &513529894
 GameObject:
   m_ObjectHideFlags: 0
@@ -4467,26 +4513,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953405234}
   m_Mesh: {fileID: -994916185310729191, guid: 19de5d669a4aef746a56e58dffa72306, type: 3}
---- !u!1 &1965442336 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 678c3dee92f98cb42bbbf11c8e0811f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 2139627943}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1965442340
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965442336}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 678c3dee92f98cb42bbbf11c8e0811f1, type: 3}
 --- !u!1 &1983922728
 GameObject:
   m_ObjectHideFlags: 0
