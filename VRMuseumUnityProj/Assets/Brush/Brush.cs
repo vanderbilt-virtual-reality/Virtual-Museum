@@ -24,7 +24,13 @@ public class Brush : MonoBehaviour {
         bool handIsTracking = UpdatePose(node, ref _handPosition, ref _handRotation);
 
         // Figure out if the trigger is pressed or not
-        bool triggerPressed = Input.GetAxisRaw(trigger) > 0.1f;
+        float lTrig = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch);
+        bool triggerPressed = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch) > 0.1f;
+
+        if (triggerPressed)
+        {
+            int three = 4;
+        }
 
         // If we lose tracking, stop drawing
         if (!handIsTracking)
