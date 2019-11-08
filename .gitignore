@@ -9,7 +9,12 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-
+[Rr]esources/Ath*
+[Rr]esources/col*
+*.zip
+gdrive*
+*column*
+*athena*
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
