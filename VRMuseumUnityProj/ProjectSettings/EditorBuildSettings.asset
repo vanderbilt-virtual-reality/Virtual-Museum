@@ -14,10 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lobby2.unity
     guid: e176ab16b0ebbba429a28072dfc877d3
-  - enabled: 1
-    path: Assets/Scenes/DinoRoomScene.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/700ac6107c2c60b4b89627fbdf836c9c
     guid: 700ac6107c2c60b4b89627fbdf836c9c
   - enabled: 1
     path: Assets/Scenes/GrecoRoman Room.unity
     guid: 63b4430e5147a4dd38ed4091cd1bdd24
+  - enabled: 1
+    path: Assets/Scenes/DinoRoomScene.unity
+    guid: 9775a6e92197f344fa66028cb48d2228
   m_configObjects: {}

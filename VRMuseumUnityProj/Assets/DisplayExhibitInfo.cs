@@ -7,35 +7,24 @@ public class DisplayExhibitInfo : MonoBehaviour
 {
     public GameObject museumObject;
     public string displayText;
-    public Camera uiCamera;
     public float proxDistance;
+    public GameObject display;
 
-    private GameObject canvasHolder;
-
-    void Start()
-    {
-        canvasHolder = new GameObject();
-        canvasHolder.name = "ProximityCanvas";
-        canvasHolder.AddComponent<Canvas>();
-        Canvas myCanvas = canvasHolder.GetComponent<Canvas>();
-        myCanvas.renderMode = RenderMode.ScreenSpaceCamera;
-        myCanvas.worldCamera = uiCamera;
-        canvasHolder.AddComponent<Text>();
-        Text textComponent = canvasHolder.GetComponent<Text>();
-        textComponent.text = "";
-    }
-
+    private bool textSet = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(this.transform.position, museumObject.transform.position) < proxDistance)
+        if (Vector3.Distance(this.transform.position, museumObject.transform.position) < proxDistance && !textSet)
         {
-            canvasHolder.GetComponent<Text>().text = displayText;
+            display.GetComponent<Text>().text = displayText;
+            textSet = true;
         }
-        else
+        else if (Vector3.Distance(this.transform.position, museumObject.transform.position) > proxDistance)
         {
-            canvasHolder.GetComponent<Text>().text = "";
+            Text textComponent = display.GetComponent<Text>();
+            textComponent.text = "";
+            textSet = false;
         }
     }
 }
