@@ -4471,6 +4471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f17d654a5dd23544bb488b7102d669a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goToScene: Greco Roman Room
 --- !u!65 &1913342947
 BoxCollider:
   m_ObjectHideFlags: 0
