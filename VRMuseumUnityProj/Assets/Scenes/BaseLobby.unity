@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.43731025, g: 0.4850824, b: 0.565354, a: 1}
+  m_IndirectSpecularColor: {r: 0.4373107, g: 0.4850831, b: 0.5653551, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -50}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 500, y: -300}
+  m_SizeDelta: {x: 320, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46777618
 MonoBehaviour:
@@ -177,11 +177,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 440e99598766dbd40a4d8bc01445b5ca, type: 3}
-    m_FontSize: 24
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 48
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 100697494}
   - component: {fileID: 100697496}
   - component: {fileID: 100697495}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,7 +754,7 @@ GameObject:
   - component: {fileID: 282142373}
   - component: {fileID: 282142375}
   - component: {fileID: 282142374}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2107,7 +2107,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.85236e+28, y: 2.1716403e-18, z: 6.3250305e+28, w: 1.5863221e+10}
+  m_BoundingSphereOverride: {x: 1.45466e-40, y: 3.59e-43, z: 1.5067e-41, w: -5.87783e-39}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2198,7 +2198,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.0000008142067, y: 6.323129e-19, z: 6337696, w: NaN}
+  m_BoundingSphereOverride: {x: 183973460, y: 1.0950295e+27, z: 0.00000004101948,
+    w: 7.1400895e+31}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2490,7 +2491,7 @@ GameObject:
   - component: {fileID: 882623741}
   - component: {fileID: 882623743}
   - component: {fileID: 882623742}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3682,7 +3683,7 @@ GameObject:
   - component: {fileID: 1171219938}
   - component: {fileID: 1171219937}
   - component: {fileID: 1171219936}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DinoRoomCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3738,7 +3739,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1639019834}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3781,7 +3782,7 @@ GameObject:
   - component: {fileID: 1179100824}
   - component: {fileID: 1179100823}
   - component: {fileID: 1179100822}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LobbyCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3837,7 +3838,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1639019834}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4631,7 +4632,7 @@ GameObject:
   - component: {fileID: 1495514162}
   - component: {fileID: 1495514161}
   - component: {fileID: 1495514160}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Lobby2Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4687,7 +4688,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1639019834}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4819,7 +4820,7 @@ GameObject:
   - component: {fileID: 1556376987}
   - component: {fileID: 1556376986}
   - component: {fileID: 1556376985}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: GrecoRomanRoomCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4875,7 +4876,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1639019834}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -5101,7 +5102,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: 1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 32
@@ -5132,7 +5133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639019833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.464726, y: 0.4897604, z: 12.595965}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1844075801}
@@ -6156,7 +6157,7 @@ GameObject:
   - component: {fileID: 2095857489}
   - component: {fileID: 2095857491}
   - component: {fileID: 2095857490}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
