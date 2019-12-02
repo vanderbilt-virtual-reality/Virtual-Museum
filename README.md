@@ -14,4 +14,4 @@ Previously Purchased Assets: https://vanderbilt.app.box.com/s/tyheh78q32z6se9cph
 Made with Unity Version: 2019.2.6f1
 
 ## Misc.
-One of the listed authors is someone named Yutao, should be authored by Brandon.  Github Desktop said that Yutao was signed out but still assigned the commits to Yutao
+One of the listed authors is someone named Yutao, but his changes should be authored by Brandon. Github Desktop said that Yutao was signed out but still assigned some of the commits to Yutao.
