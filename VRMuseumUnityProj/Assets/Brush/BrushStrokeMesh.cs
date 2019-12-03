@@ -56,7 +56,6 @@ public class BrushStrokeMesh : MonoBehaviour {
         Vector3 p2;
         Vector3 normal;
         CalculateVerticesAndNormalForRibbonPoint(position, rotation, _brushStrokeWidth, out p1, out p2, out normal);
-
         int lastIndex = _vertices.Count-4;
 
         // Update vertices
