@@ -27,8 +27,8 @@ public class Brush : MonoBehaviour {
         bool handIsTracking = UpdatePose(node, ref _handPosition, ref _handRotation);
 
         // Figure out if the trigger is pressed or not
-        float lTrig = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch);
-        bool triggerPressed = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch) > 0.1f;        
+        float rTrig = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
+        bool triggerPressed = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch) > 0.1f;        
 
         // If we lose tracking, stop drawing
         if (!handIsTracking)
@@ -41,8 +41,8 @@ public class Brush : MonoBehaviour {
 
             // Grab the BrushStroke component from it
             _activeBrushStroke = brushStrokeGameObject.GetComponent<BrushStroke>();
-
-            _activeBrushStroke.transform.position = new Vector3(GameObject.Find("OVRPlayerController").transform.position.x + _activeBrushStroke.transform.position.x - (float) 0.3, _activeBrushStroke.transform.position.y, GameObject.Find("OVRPlayerController").transform.position.z + _activeBrushStroke.transform.position.z - (float) 0.2) ;
+            Vector3 test = _activeBrushStroke.transform.position;
+            _activeBrushStroke.transform.position = new Vector3(-_handPosition.x + GameObject.Find("RightHandAnchor").transform.position.x, 2*GameObject.Find("OVRPlayerController").transform.position.y - GameObject.Find("CenterEyeAnchor").transform.position.y, -_handPosition.z + GameObject.Find("RightHandAnchor").transform.position.z) ;
             // Tell the BrushStroke to begin drawing at the current brush position
             _activeBrushStroke.BeginBrushStrokeWithBrushTipPoint(_handPosition, _handRotation);
         }
