@@ -15,6 +15,9 @@ public class Brush : MonoBehaviour {
     private Quaternion  _handRotation;
     private BrushStroke _activeBrushStroke;
 
+    private Transform trackingSpace; // reference to the tracking space
+    private OVRInput.Controller controller; // the controller to instantiate the object at
+
     private void Update() {
         // Start by figuring out which hand we're tracking
         XRNode node    = _hand == Hand.LeftHand ? XRNode.LeftHand : XRNode.RightHand;
@@ -25,12 +28,7 @@ public class Brush : MonoBehaviour {
 
         // Figure out if the trigger is pressed or not
         float lTrig = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch);
-        bool triggerPressed = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch) > 0.1f;
-
-        if (triggerPressed)
-        {
-            int three = 4;
-        }
+        bool triggerPressed = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch) > 0.1f;        
 
         // If we lose tracking, stop drawing
         if (!handIsTracking)
@@ -44,6 +42,7 @@ public class Brush : MonoBehaviour {
             // Grab the BrushStroke component from it
             _activeBrushStroke = brushStrokeGameObject.GetComponent<BrushStroke>();
 
+            _activeBrushStroke.transform.position = new Vector3(GameObject.Find("OVRPlayerController").transform.position.x + _activeBrushStroke.transform.position.x - (float) 0.3, _activeBrushStroke.transform.position.y, GameObject.Find("OVRPlayerController").transform.position.z + _activeBrushStroke.transform.position.z - (float) 0.2) ;
             // Tell the BrushStroke to begin drawing at the current brush position
             _activeBrushStroke.BeginBrushStrokeWithBrushTipPoint(_handPosition, _handRotation);
         }
