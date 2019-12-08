@@ -43,6 +43,7 @@ public class Brush : MonoBehaviour {
             _activeBrushStroke = brushStrokeGameObject.GetComponent<BrushStroke>();
             Vector3 test = _activeBrushStroke.transform.position;
             _activeBrushStroke.transform.position = new Vector3(-_handPosition.x + GameObject.Find("RightHandAnchor").transform.position.x, 2*GameObject.Find("OVRPlayerController").transform.position.y - GameObject.Find("CenterEyeAnchor").transform.position.y, -_handPosition.z + GameObject.Find("RightHandAnchor").transform.position.z) ;
+ 
             // Tell the BrushStroke to begin drawing at the current brush position
             _activeBrushStroke.BeginBrushStrokeWithBrushTipPoint(_handPosition, _handRotation);
         }
