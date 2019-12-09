@@ -24,13 +24,21 @@ One of the listed authors is someone named Yutao, but his changes should be auth
 
 ## Assets
 The following asset packs were included:
+
   Sketchfab for Unity (version: v0.0.85a(alpha))
+  
   Noir Marble Pack 01 (version: 1.1)
+  
   Chamfer Box Assets (version: 1.10)
+  
   Quantum Theory - Rome Fantasy Pack 1 (version: 1.17)
+  
   T-Rex Dinosaur (version: 1.2)
+  
   Triceratops Dinosaur (version: 1.1)
+  
   AllSky - 200+ Sky / Skybox Set (version: 1.0)
+  
   Parthenon Frieze assets from Professor Robinson and her students (not on the asset store)
   
 ## Summary of Project
