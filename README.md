@@ -23,9 +23,6 @@ Made with Oculus Integration Version: 1.40
 One of the listed authors is someone named Yutao, but his changes should be authored by Brandon. Github Desktop said that Yutao was signed out but still assigned some of the commits to Yutao.
 
 ## Assets
-The following asset packs were included:
-
-
   Sketchfab for Unity (version: v0.0.85a(alpha))
   
   Noir Marble Pack 01 (version: 1.1)
