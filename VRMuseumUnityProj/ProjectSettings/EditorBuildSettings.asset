@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BaseLobby.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lobby.unity
     guid: 3bb02d586702fdc43b9dfaa1011b00c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lobby2.unity
     guid: e176ab16b0ebbba429a28072dfc877d3
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/700ac6107c2c60b4b89627fbdf836c9c
-    guid: 700ac6107c2c60b4b89627fbdf836c9c
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/GrecoRoman Room.unity
     guid: 63b4430e5147a4dd38ed4091cd1bdd24
