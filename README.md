@@ -41,3 +41,6 @@ One of the listed authors is someone named Yutao, but his changes should be auth
   
 ## Summary of Project
   This is an interpretation of what a virtual museum could look like. It includes a lobby area, dinosaur room, and a Greco-Roman art exhibit. The user is able to interact with objects, graze the lands of prehistoric times, and view recreations  of blocks of the Parthenon Frieze up close. The user also is engaged in learning through brief descriptions about each exhibit. There is also a special exhibit dedicated to the three professors who guided the efforts behind this project.
+  
+## Build File
+The build files are contained in a zipped folder that is under the "Releases" tab.  The executable folder there contains everything needed to run the program.  THe executable folder contained in the main GitHub storage is missing some assets but will still run.
